@@ -15,6 +15,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 <!-- row css -->
  <style>
+   .section2-bg1{
+    background-image:linear-gradient(180deg,rgba(19, 19, 24, 0.5),rgba(19, 19, 24, 0.5)), url(Images/2.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+   }
+   .section2-bg2{
+    background-image:linear-gradient(180deg,rgba(19, 19, 24, 0.5),rgba(19, 19, 24, 0.5)), url(Images/3.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+   }
+   .section2-bg3{
+    background-image:linear-gradient(180deg,rgba(19, 19, 24, 0.5),rgba(19, 19, 24, 0.5)), url(Images/4.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+   }
     body{
         font-family: "Manrope", sans-serif;
     }
@@ -76,14 +94,14 @@
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" alt="" class="md:w-[100%] md:h-[550px]">
-                  <div class="absolute  flex bottom-8 left-8 space-x-4  justify-between">
+                  <div class="absolute  flex bottom-8 left-28 md:left-8 space-x-4  justify-between">
                     <a href="#slide4" class="btn btn-circle text-xl bg-black text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle text-xl bg-black text-white">❯</a>
                   </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="Images/2.png" alt="" class="md:w-[100%] md:h-[550px]">
-                    <div class="absolute  flex bottom-8 left-8 space-x-4  justify-between">
+                    <div class="absolute  flex bottom-8 left-28  md:left-8 space-x-4  justify-between">
                       <a href="#slide1" class="btn btn-circle text-xl bg-black text-white">❮</a>
                       <a href="#slide3" class="btn btn-circle text-xl bg-black text-white">❯</a>
                     </div>
@@ -109,8 +127,85 @@
               </div>
         </div>
     </header>
-    <main>
-        
+    <main class="md:w-[90%] mx-auto lg:w-[85%] w-[90%]">
+      <!-- section1  -->
+      <section class="mt-24">
+          <div class="py-8 space-y-4 border-y-2 border-dashed text-center ">
+            <h1 class="md:text-4xl text-2xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+            <p class="text-[#13131899] font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor <br>. Purus urna in sit nullam proin. </p>
+          </div>
+          <div class="grid lg:grid-cols-4 md:grid-cols-2">
+              <div class="  w-[89%] md:w-[80%] text-center flex flex-col justify-center items-center space-y-3 mt-10">
+                <div class="relative ">
+                  <div class="radial-progress z-10  text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black text-2xl font-extrabold">87%</span></div>
+                <div class="radial-progress absolute  left-0
+                    text-[#E7E7E8]" style="--value:100;" role="progressbar"></div>
+                </div>
+                <h4 class="text-[#131318] font-semibold text-xl">Prayer Facility</h4>
+                <p class="text-[#13131899]  ">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                
+              </div>
+              <div class="  w-[89%] md:w-[80%] text-center flex flex-col justify-center items-center space-y-3 mt-10">
+                <div class="relative ">
+                  <div class="radial-progress z-10  text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black text-2xl font-extrabold">87%</span></div>
+                <div class="radial-progress absolute  left-0
+                    text-[#E7E7E8]" style="--value:100;" role="progressbar"></div>
+                </div>
+                <h4 class="text-[#131318] font-semibold text-xl">Prayer Facility</h4>
+                <p class="text-[#13131899]  ">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                
+              </div>
+              <div class="  w-[89%] md:w-[80%] text-center flex flex-col justify-center items-center space-y-3 mt-10">
+                <div class="relative ">
+                  <div class="radial-progress z-10  text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black text-2xl font-extrabold">87%</span></div>
+                <div class="radial-progress absolute  left-0
+                    text-[#E7E7E8]" style="--value:100;" role="progressbar"></div>
+                </div>
+                <h4 class="text-[#131318] font-semibold text-xl">Prayer Facility</h4>
+                <p class="text-[#13131899]  ">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                
+              </div>
+              <div class="  w-[89%] md:w-[80%] text-center flex flex-col justify-center items-center space-y-3 mt-10">
+                <div class="relative ">
+                  <div class="radial-progress z-10  text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black text-2xl font-extrabold">87%</span></div>
+                <div class="radial-progress absolute  left-0
+                    text-[#E7E7E8]" style="--value:100;" role="progressbar"></div>
+                </div>
+                <h4 class="text-[#131318] font-semibold text-xl">Prayer Facility</h4>
+                <p class="text-[#13131899]  ">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                
+              </div>
+              
+          </div>
+      </section>
+        <!-- section2 -->
+         <section>
+        <div class="mt-28 py-8 space-y-4 border-y-2 border-dashed text-center ">
+          <h1 class="md:text-4xl text-2xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+          <p class="text-[#13131899] font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor <br>. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid md:grid-cols-2 mt-12 gap-5 ">
+          <div class="rounded-xl section2-bg1 w-[100%] border px-10 md:pt-24 pb-10  space-y-4">
+            <h2 class="text-white text-2xl font-extrabold ">Junior Program</h2>
+            <p class="text-white"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn btn-ghost bg-[#FF4240] text-white ">Register Now!</button>
+          </div>
+          <div class="rounded-xl section2-bg2 px-10 md:pt-24 pb-10  space-y-4">
+            <h2 class="text-white text-2xl font-extrabold ">Junior Program</h2>
+            <p class="text-white"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn btn-ghost bg-[#FF4240] text-white ">Register Now!</button>
+          </div>
+          <div class="rounded-xl section2-bg3 pl-10 lg:pr-[700px] lg:pt-[207px] md:pb-20 md:col-span-2  space-y-4">
+            <h2 class="text-white text-2xl font-extrabold ">Junior Program</h2>
+            <p class="text-white"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn btn-ghost bg-[#FF4240] text-white ">Register Now!</button>
+          </div>
+          
+        </div>
+        </section>
     </main>
     <footer>
 
